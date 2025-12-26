@@ -1,0 +1,96 @@
+/* Full viewport background */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: #121212;
+}
+
+/* Modal Card */
+.centered-card {
+  width: 100%;
+  max-width: 480px;
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: relative;
+}
+
+/* Form Inputs */
+.input-form input {
+  width: calc(100% - 1rem);
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.input-form input:focus {
+  border-color: #646cff;
+  outline: none;
+}
+
+.input-form button {
+  margin-top: 0.5rem;
+}
+
+.clear-btn {
+  margin-left: 0.5rem;
+}
+
+.history-btn {
+  background: none;
+  border: none;
+  color: #646cff;
+  cursor: pointer;
+}
+
+.history-btn:hover {
+  text-decoration: underline;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.delete-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.logout-btn {
+  margin-top: 1rem;
+  background-color: #646cff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+}
+
+.error-text {
+  color: #ff4d4f;
+  margin-top: 0.5rem;
+}
+
+.geo-info p {
+  margin: 0.3rem 0;
+}
+
+/* Leaflet map */
+.leaflet-container {
+  height: 300px;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
